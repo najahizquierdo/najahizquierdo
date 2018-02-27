@@ -18,15 +18,13 @@ class Projects extends Component {
           <div className="col s12 m5 l3">
             PROJECTS
              <div className="card-panel lit pink lighten-5">
-               <div class="pictures block">
                 <Slider {...settings}>
-                  <img src= {runcandyrun} className="grey" />
-                  <img src= {clientproject} className="grey" />
-                  <img src= {imdbclone} className="grey" />
+                  <img src= {runcandyrun} className="pictures block grey" />
+                  <img src= {clientproject} className="pictures block grey" />
+                  <img src= {imdbclone} className="pictures block grey" />
                 </Slider>
               </div>
             </div>
-          </div>
         </p>
       </div>
     );

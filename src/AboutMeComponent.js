@@ -10,10 +10,10 @@ class AboutMe extends Component {
        <div className="card-panel pink lighten-5">
          <div className="pictures">
            <center>
-             <img src={pic} width="250"/>
+             <img src={pic} className="about-me-pictures"/>
            </center>
             <center>
-              <img src={icons} className="social-icons" width="250" usemap="#image-map"/>
+              <img src={icons} className="social-icons about-me-pictures" usemap="#image-map"/>
               <map name="image-map">
                 <area href="https://github.com/najahizquierdo" coords="48,50,39" shape="circle" />
                 <area href="https://www.linkedin.com/in/najah-izquierdo-801955138/" coords="125,51,37" shape="circle" />
