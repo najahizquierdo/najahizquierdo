@@ -1,23 +1,29 @@
 import React, { Component } from 'react';
 import './App.css';
-import nametag from './pictures/name-tag.png'
-import Socials from './socials.js'
 import Portfolio from './Portfolio.js'
 import { Button, Card, row, col } from 'react-materialize';
+import Projects from './ProjectsComponent.js'
+import {BrowserRouter, Route, Router, Redirect} from 'react-router-dom';
+import Illustrations from './IllustrationComponent.js'
+import Sidebar from './SideNavBarComponent.js'
+import Flyers from './FlyersComponent.js'
 
 class App extends Component {
   render() {
     return (
+      <BrowserRouter>
       <div>
       <div className="App">
-        <header className="App-header">
-          <img src={nametag} className="App-logo" alt="logo" />
-      </header>
+
       </div>
+      <Sidebar />
 
-        <Portfolio />
-
+        <Route exact path='/' component={Portfolio} />
+        <Route path='/projects' component={Projects}/>
+        <Route path='/illustrations' component={Illustrations}/>
+        <Route path='/flyers' component={Flyers}/>
     </div>
+  </BrowserRouter>
     );
   }
 }

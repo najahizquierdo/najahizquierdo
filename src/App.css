@@ -1,6 +1,9 @@
 body {
   background-color: white;
+  font-family: 'IBM Plex Mono';
+  text-transform: uppercase;
 }
+
 .App {
   text-align: center;
 }
@@ -24,33 +27,31 @@ body {
 .App-intro {
   font-size: large;
 }
-
-
-.social-icons {
-  top: -10px;
+.icon-container {
+  margin-right: 60%;
+  margin-left: 5%;
+  margin-top: -4%;
 }
-
-.about-me-pictures {
-  width: 90%;
+.icon {
+  width: 20%;
 }
-.pictures {
- border:15px solid #ffffff;
- background-color: white;
-}
-
-.about-me {
-  margin-top: 10%;
-}
-
 .block {
-  width: 100%;
-  height: 250px auto;
-
+  width: 90%;
+  margin-right: 60%;
+  margin-top: 8%;
 }
 
-.lit {
-  width: 300%;
-  height: 300px auto;
+.pictures {
+  width:50%;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 25%;
+}
+.flyers {
+  width:50%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 25%;
 }
 
 .text {
@@ -63,14 +64,135 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.grey {
-    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition: all .8s ease-in-out;
-    }
 
     img:hover {
     filter: none;
       -webkit-transform: scale(1.01);
+    }
+
+    /* Fixed sidenav, full height */
+    .sidenav {
+        height: 100%;
+        width: 15%;
+        position: fixed;
+        margin-left: 85%;
+        background-color: #fff;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-top: 2%;
+        font-size: 100%;
+    }
+
+    /* Style the sidenav links and the dropdown button */
+    .sidenav a, .dropdown-button {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 100%;
+        color: #818181;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+    }
+
+    /* On mouse-over */
+    .sidenav a:hover, .dropdown-button:hover {
+        color: #fff;
+    }
+
+    /* Main content */
+    .main {
+        margin-left: 20%; /* Same as the width of the sidenav */
+        font-size: 20px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+    }
+
+    /* Add an active class to the active dropdown button */
+    .active {
+        background-color: black;
+        color: white;
+    }
+
+    /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+    .dropdown-container {
+        display: none;
+        padding-left: 8px;
+        background-color: white;
+        color: black;
+        font-style: 'IBM Plex Mono';
+        font-size: 14px;
+    }
+
+    /* Optional: Style the caret down icon */
+    .fa-caret-down {
+        float: right;
+        padding-right: 8px;
+        background-color: white;
+        color: black;
+        font-style: 'IBM Plex Mono';
+        font-size: 14px;
+    }
+
+    /* Some media queries for responsiveness */
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+
+    .container {
+        position: relative;
+        width: 75%;
+    }
+
+    .image {
+      opacity: 1;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+      width: 80%;
+      position: relative;
+      margin-right: 75%;
+      margin-top: 10%;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left:40%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+        font-size: 16px;
+        color:white;
+        font-size: 14px;
+        display: block;
+        line-height: 22px;
+        padding: 14px 16px;
+      }
+
+
+
+
+    .container:hover .image {
+      opacity: 0.3;
+    }
+
+    .container:hover .middle {
+      opacity: 1;
+    }
+
+    .text {
+      background-color: white;
+      color: black;
+      font-style: 'IBM Plex Mono';
+      font-size: 14px;
+      padding: 10px 25px;
     }

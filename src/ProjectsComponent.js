@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import runcandyrun from './pictures/runcandyrun.png'
-import clientproject from './pictures/clientproject.png'
-import imdbclone from './pictures/imdbclone.png'
+import bsp from './pictures/bsp2.png'
 import Slider from 'react-slick'
 class Projects extends Component {
   render() {
@@ -16,14 +14,8 @@ class Projects extends Component {
       <div>
         <p>
           <div className="col s12 m5 l3">
-            PROJECTS
-             <div className="card-panel lit pink lighten-5">
-                <Slider {...settings}>
-                  <img src= {runcandyrun} className="pictures block grey" />
-                  <img src= {clientproject} className="pictures block grey" />
-                  <img src= {imdbclone} className="pictures block grey" />
-                </Slider>
-              </div>
+            <h1> Blazing Stone Pizza </h1>
+                  <img src= {bsp} className="pictures" />
             </div>
         </p>
       </div>
