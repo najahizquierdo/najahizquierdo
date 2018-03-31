@@ -17,8 +17,11 @@ class AboutMe extends Component {
         <p> <img src={me} className="about-me-pic" /> </p>
         <p>
           I am a web developer and a student. I attend SJSU and i'm trying to double major in
-          Economics and Computer Science. In my free time I enjoy teaching
-          myself new, creative skills and e
+          Economics and Computer Science. In my free time, I enjoy teaching
+          myself and learning new, creative skills that allow me to express myself in all forms.
+          I enjoy dabbling in many different areas, such as: music, digital art, and anything web design.
+          Coding has really expanded my creativity, allowing me to incorporate all of my interests due to it's versatility.
+          
         </p>
         <p>
         <a href="http://www.facebook.com/najonaslover">
