@@ -219,8 +219,23 @@ body {
   width: 85%;
 }
 
+.moments {
+  margin-top: 5%;
+}
+.moments-images {
+    width:60%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
 .about-me-pic {
   width:50%;
   float: left;
   padding: 15px;
+}
+
+.pic-text{
+  margin-left: 40%;
+  margin-top: 2%;
 }

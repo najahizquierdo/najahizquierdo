@@ -17,9 +17,10 @@ class Sidebar extends Component {
         <ul id="dropdown2" className="dropdown-content">
           <li><a href="/illustrations">ILLUSTRATIONS</a></li>
           <li className="divider"></li>
-          <li><a href="/flyers">FLYERS</a></li>
+          <li><a href="/moments">FLYERS</a></li>
         </ul>
-        <a href="/contact">MIXES</a>
+        <a href="/mixes">MIXES</a>
+        <a href="/moments">PHOTOGRAPHY</a>
         <a href="/contact">Contact</a>
         <a href="/about">About</a>
       </div>

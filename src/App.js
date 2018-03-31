@@ -6,7 +6,8 @@ import Projects from './ProjectsComponent.js'
 import {BrowserRouter, Route, Router, Redirect} from 'react-router-dom';
 import Illustrations from './IllustrationComponent.js'
 import Sidebar from './SideNavBarComponent.js'
-import Flyers from './FlyersComponent.js'
+import Moments from './FlyersComponent.js'
+import Music from './Music.js'
 import Bsp from './BlazingStonePizza.js'
 import AboutMe from './AboutComponent.js'
 class App extends Component {
@@ -22,8 +23,9 @@ class App extends Component {
         <Route exact path='/' component={Portfolio} />
         <Route path='/projects' component={Projects}/>
         <Route path='/illustrations' component={Illustrations}/>
-        <Route path='/flyers' component={Flyers}/>
+        <Route path='/moments' component={Moments}/>
         <Route path='/bsp' component={Bsp} />
+        <Route path='/mixes' component={Music} />
         <Route path='/about' component={AboutMe} />
     </div>
   </BrowserRouter>
