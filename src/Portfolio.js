@@ -27,9 +27,6 @@ class Portfolio extends Component {
     <a href="http://www.instagram.com/nastyynaj">
       <img src={insta} className="icon" />
     </a>
-    <a href="http://www.twitter.com/champagnenajah">
-      <img src={twitter} className="icon" />
-    </a>
   </div>
   </div>
     );

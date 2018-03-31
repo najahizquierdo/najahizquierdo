@@ -34,11 +34,14 @@ body {
 }
 .icon {
   width: 20%;
+  margin: 1%;
+
 }
 .icon_about {
   width: 10%;
   padding: 1%;
 }
+
 .block {
   width: 90%;
   margin-right: 60%;
