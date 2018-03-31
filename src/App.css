@@ -35,6 +35,10 @@ body {
 .icon {
   width: 20%;
 }
+.icon_about {
+  width: 10%;
+  padding: 1%;
+}
 .block {
   width: 90%;
   margin-right: 60%;
@@ -47,6 +51,11 @@ body {
   margin-left: 20%;
   margin-right: 25%;
 }
+.wireframing {
+  width: 50%;
+  padding-top: 10px;
+}
+
 .flyers {
   width:50%;
   margin-top: 3%;
@@ -196,3 +205,12 @@ body {
       font-size: 14px;
       padding: 10px 25px;
     }
+
+.pages {
+  width: 85%;
+}
+
+.about-me-pic {
+  width:50%;
+  float: left;
+}

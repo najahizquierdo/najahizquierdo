@@ -10,20 +10,18 @@ class Sidebar extends Component {
         <a href="/">Home</a>
         <a className="dropdown-button" href="#!" data-activates="dropdown1">Projects</a>
         <ul id="dropdown1" className="dropdown-content">
-          <li><a href="/projects">Blazing Stone Pizza</a></li>
-          <li><a href="#!">two</a></li>
+          <li><a href="/bsp">BLAZING STONE PIZZA</a></li>
           <li className="divider"></li>
-          <li><a href="#!">three</a></li>
         </ul>
         <a className="dropdown-button" href="#!" data-activates="dropdown2">Graphic Designs</a>
         <ul id="dropdown2" className="dropdown-content">
-          <li><a href="/illustrations">Illustrations</a></li>
-          <li><a href="/flyers">Flyers</a></li>
+          <li><a href="/illustrations">ILLUSTRATIONS</a></li>
           <li className="divider"></li>
-          <li><a href="#!">three</a></li>
+          <li><a href="/flyers">FLYERS</a></li>
         </ul>
+        <a href="/contact">MIXES</a>
         <a href="/contact">Contact</a>
-        <a href="#contact">Search</a>
+        <a href="/about">About</a>
       </div>
 
     );

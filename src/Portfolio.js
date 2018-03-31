@@ -6,6 +6,7 @@ import fb from './pictures/fb.png'
 import insta from './pictures/insta.png'
 import linkedin from './pictures/linkedin.png'
 import sc from './pictures/sc.png'
+import twitter from './pictures/twitter.png'
 
 
 class Portfolio extends Component {
@@ -14,17 +15,20 @@ class Portfolio extends Component {
   <div className="row about-me">
     <img src={name} className="block" />
     <div className="icon-container">
-    <a href="https://www.facebook.com/najonaslover">
+    <a href="http://www.facebook.com/najonaslover">
       <img src={fb} className="icon" />
     </a>
-    <a href="https://soundcloud.com/nastyynajj">
+    <a href="http://soundcloud.com/nastyynajj">
       <img src={sc} className="icon" />
     </a>
-    <a href="https://www.linkedin.com/in/najah-izquierdo-801955138/">
+    <a href="http://www.linkedin.com/in/najah-izquierdo-801955138/">
      <img src={linkedin} className="icon" />
    </a>
-    <a href="https://www.instagram.com/nastyynaj">
+    <a href="http://www.instagram.com/nastyynaj">
       <img src={insta} className="icon" />
+    </a>
+    <a href="http://www.twitter.com/champagnenajah">
+      <img src={twitter} className="icon" />
     </a>
   </div>
   </div>
