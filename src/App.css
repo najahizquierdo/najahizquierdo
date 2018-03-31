@@ -152,10 +152,19 @@ body {
     }
 
     .container {
-        position: relative;
         width: 75%;
     }
-
+    .collapse {
+      padding:20px;
+      width:40%;
+      float:left;
+    }
+    .collapsible-header {
+      color: black;
+    }
+    .collapsible-body {
+      color: black;
+    }
     .image {
       opacity: 1;
       height: auto;
@@ -213,4 +222,5 @@ body {
 .about-me-pic {
   width:50%;
   float: left;
+  padding: 15px;
 }
