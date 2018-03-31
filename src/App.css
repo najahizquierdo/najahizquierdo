@@ -153,21 +153,10 @@ body {
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
     }
-
     .container {
-        width: 75%;
-    }
-    .collapse {
-      padding:20px;
-      width:40%;
-      float:left;
-    }
-    .collapsible-header {
-      color: black;
-    }
-    .collapsible-body {
-      color: black;
-    }
+    position: relative;
+}
+
     .image {
       opacity: 1;
       height: auto;
