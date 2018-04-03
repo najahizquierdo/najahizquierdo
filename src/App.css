@@ -59,6 +59,7 @@ body {
   padding-top: 10px;
 }
 
+
 .flyers {
   width:50%;
   margin-top: 3%;
@@ -230,4 +231,40 @@ body {
 .pic-text{
   margin-left: 40%;
   margin-top: 2%;
+}
+
+
+
+.thumbnail:hover {
+    top:-25px;
+    width:100%;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.contact-icon{
+  width:25%;
+  padding:8px;
+}
+
+.github-icon{
+  width:25%;
+  padding:10px;
+}
+
+.contact {
+  width: 40%;
+}
+
+
+.column1 {
+  width: 60%;
+  float: right;
+}
+
+.column2 {
+margin-top: 45%;
+float:left;
+width: 40%;
 }

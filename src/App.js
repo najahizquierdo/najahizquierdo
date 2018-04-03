@@ -10,6 +10,7 @@ import Moments from './FlyersComponent.js'
 import Music from './Music.js'
 import Bsp from './BlazingStonePizza.js'
 import AboutMe from './AboutComponent.js'
+import Contact from './Contact.js'
 class App extends Component {
   render() {
     return (
@@ -26,6 +27,7 @@ class App extends Component {
         <Route path='/moments' component={Moments}/>
         <Route path='/bsp' component={Bsp} />
         <Route path='/mixes' component={Music} />
+        <Route path='/contact' component={Contact} />
         <Route path='/about' component={AboutMe} />
     </div>
   </BrowserRouter>
