@@ -9,26 +9,44 @@ class Contact extends Component {
     return (
       <div className="pages">
         <div className="row">
-          <img src={resume} className="column1" />
+        <img src={resume} className="column1" />
         <div className="column2">
           <center><h2>Contact </h2>
-          <p>
-            najahizquierdo@gmail.com
-            <p>
-              www.najahizquierdo.com
-            </p>
+              <p>
+                najahizquierdo@gmail.com
+                <p>
+                  www.najahizquierdo.com
+                </p>
 
+              </p>
+              <a href="http://www.linkedin.com/in/najah-izquierdo-801955138/">
+              <img src={linked} className="contact-icon" />
+            </a>
+            <a href="http://www.github.com/najahizquierdo/">
+              <img src={github} className="github-icon" />
+            </a>
+          </center>
+        </div>
+      </div>
+      <div className="mobile-contact">
+        <center><h2>Contact </h2>
+          <p>
+          najahizquierdo@gmail.com
+          <p>
+            www.najahizquierdo.com
           </p>
-          <a href="http://www.linkedin.com/in/najah-izquierdo-801955138/">
+          </p>
+        <a href="http://www.linkedin.com/in/najah-izquierdo-801955138/">
           <img src={linked} className="contact-icon" />
         </a>
         <a href="http://www.github.com/najahizquierdo/">
-        <img src={github} className="github-icon" />
-      </a>
-    </center>
-  </div>
-        </div>
+          <img src={github} className="github-icon" />
+        </a>
+      </center>
+      <img src={resume} className="pages" />
       </div>
+    </div>
+
     );
   }
 }

@@ -7,7 +7,7 @@ import mom from './pictures/mom.jpg';
 class Illustrations extends Component {
   render() {
     return(
-  <div className="row about-me">
+  <div>
     <div className="container">
     <img src={hugo} className="image"/>
   <div className="middle">
@@ -27,22 +27,24 @@ class Illustrations extends Component {
   </div>
 </div>
   <div className="container">
+
     <img src={mom} className="image" />
-  <div className="middle">
-    <div className="text">
-      <h6> Queen A(mama)dala</h6>
-      <p>
-        Portrait
-      </p>
-      <p>
-        Adobe Illustrator
-      </p>
-      <p>
-        2018
-      </p>
+
+    <div className="middle">
+      <div className="text">
+        <h6> Queen A(mama)dala</h6>
+          <p>
+            Portrait
+          </p>
+          <p>
+            Adobe Illustrator
+          </p>
+          <p>
+            2018
+          </p>
+      </div>
     </div>
   </div>
-</div>
 </div>
     );
   }

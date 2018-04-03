@@ -19,19 +19,18 @@ class AboutMe extends Component {
           Najah Izquierdo. 21. Creative, curious, perfectionist.
         </p>
         <p>
-          I am a Los Angeles, California native who currently resides in the South Bay.
-          Prior to this, I was living in New York City. Relocating quite a bit in the
-          last few years has allowed me to take inspiration from each city and incorporate it into my craft.
+          Najah is a Los Angeles native who currently resides in the South Bay.
+          Prior to this, she lived in New York City for a year. Relocating quite a bit in the
+          last few years has allowed her to take inspiration from each city and incorporate it into her craft.
         </p>
-        Although I have always known I wanted to pursure a career in technology, I always strived to enhance my artistic abilities.
-          My inquisitive nature has led me into various ventures such as music, digital arts, and web design.
-          These things have inpired me to further explore my interests and fuel my creativity.
+        Although she has always wanted to pursure a career in technology, she has also strived to enhance her artistic skills.
+        Her inquisitive nature has led her into various ventures such as music, digital arts,
+        and web design. These things have inpired her to further explore her interests and fuel her creativity.
 
           <p>
-          web development has given me the freedom to
-          create new, exciting content within my interests.
-          Since coding is so versatile, I am able to bring life to ideas that involve both tech and art. Often times,
-          the two are categorized as complete opposites. However, in my experience, the two must be paired in order to create beautiful and meaningful
+          web development has given her the freedom to create new, exciting content within her interests.
+          Since coding is so versatile, she is able to bring life to ideas that involve both tech and art. Often times,
+          the two are categorized as complete opposites, but they must be paired in order to create beautiful and meaningful
           content.
         </p>
         <p>

@@ -35,8 +35,20 @@ body {
 .icon {
   width: 20%;
   margin: 1%;
+}
+
+@media (max-width: 785px) {
+  .icon {
+    width: 15%;
+  }
+  .icon-container {
+    width:100%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 
 }
+
 .icon_about {
   width: 10%;
   padding: 1%;
@@ -44,8 +56,20 @@ body {
 
 .block {
   width: 90%;
-  margin-right: 60%;
-  margin-top: 8%;
+}
+
+
+.about-me {
+  width: 90%;
+}
+@media (max-width: 785px) {
+  .block {
+    width:100%;
+  }
+  .about-me {
+    width: 100%;
+  }
+
 }
 
 .pictures {
@@ -96,6 +120,51 @@ body {
         font-size: 100%;
     }
 
+  @media (max-width: 785px) {
+    .sidenav { display: none; }
+}
+
+@media (max-width: 785px) {
+  .mobile-nav { display: none; }
+}
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+.mobile-buttons {
+  text-decoration: none;
+  font-size: 100%;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
     /* Style the sidenav links and the dropdown button */
     .sidenav a, .dropdown-button {
         padding: 6px 8px 6px 16px;
@@ -158,6 +227,15 @@ body {
     position: relative;
 }
 
+@media (max-width: 785px) {
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+   }
+
+}
+
     .image {
       opacity: 1;
       height: auto;
@@ -211,7 +289,9 @@ body {
 .pages {
   width: 85%;
 }
-
+@media (max-width: 785px) {
+  .pages { width: 100%; }
+}
 .moments {
   margin-top: 5%;
 }
@@ -228,20 +308,16 @@ body {
   padding: 15px;
 }
 
+@media (max-width:785px) {
+  .about-me-pic {
+    width: 100%;
+  }
+}
 .pic-text{
   margin-left: 40%;
   margin-top: 2%;
 }
 
-
-
-.thumbnail:hover {
-    top:-25px;
-    width:100%;
-    height:auto;
-    display:block;
-    z-index:999;
-}
 
 .contact-icon{
   width:25%;
@@ -262,9 +338,38 @@ body {
   width: 60%;
   float: right;
 }
+@media (min-width: 785px){
+  .column1:hover {
+    top:-25px;
+    width:100%;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+}
 
 .column2 {
 margin-top: 45%;
 float:left;
 width: 40%;
+}
+
+@media (max-width: 785px) {
+  .row {
+    display: none;
+   }
+}
+
+@media (min-width: 785px) {
+  .mobile-contact {
+    display: none;
+   }
+}
+
+.contact-icon {
+  width:20%;
+}
+.github-icon {
+  width:20%;
+  padding:10px;
 }
