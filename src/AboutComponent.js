@@ -13,8 +13,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="pages">
-
-        <p> <img src={me} className="about-me-pic" /> </p>
+        <img src={me} className="about-me-pic" />
         <p>
           Najah Izquierdo. 21. Creative, curious, perfectionist.
         </p>

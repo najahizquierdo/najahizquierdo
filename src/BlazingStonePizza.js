@@ -19,7 +19,7 @@ class BlazingStonePizza extends Component {
         <div className="project-info">
         <center>
 
-          <h1> Blazing Stone Pizza </h1>
+          <h2> Blazing Stone Pizza </h2>
         </center>
             <center>
             Blazing Stone Pizza is a hip, well-reviewed pizza joint in Los Angeles, California.

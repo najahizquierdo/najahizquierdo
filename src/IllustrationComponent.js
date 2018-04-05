@@ -8,6 +8,7 @@ class Illustrations extends Component {
   render() {
     return(
   <div>
+    <h2> <center>Illustrator </center></h2>
     <div className="container">
     <img src={hugo} className="image"/>
   <div className="middle">

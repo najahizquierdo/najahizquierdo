@@ -7,6 +7,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
+        <h2> <center>Projects </center></h2>
         <div className="container">
         <img src={bsp1} className="image" />
         <div className="middle">

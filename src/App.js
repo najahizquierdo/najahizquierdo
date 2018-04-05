@@ -62,7 +62,7 @@ class App extends Component {
             this.state.show &&
           (
             <ul className="dropdown-menu" style={{display: 'block'}}>
-            <li><a href="/bsp">projects</a></li>
+            <li><a href='/projects'>projects</a></li>
             <li><a href="/graphicdesign"> Graphic Design </a> </li>
             <li><a href="/moments">PHOTOGRAPHY</a></li>
             <li><a href="/contact">contact</a></li>

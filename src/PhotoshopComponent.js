@@ -9,6 +9,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
+        <h2> <center>Photoshop </center></h2>
         <div className="container">
         <img src={snapchat} className="image" />
         <div className="middle">
