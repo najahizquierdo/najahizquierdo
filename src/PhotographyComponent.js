@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 
 
 
-class Flyers extends Component {
+class Photography extends Component {
   constructor(props){
     super(props);
   }
@@ -41,4 +41,4 @@ class Flyers extends Component {
   }
 }
 
-export default Flyers;
+export default Photography;

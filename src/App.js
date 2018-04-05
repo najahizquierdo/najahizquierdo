@@ -6,10 +6,12 @@ import Projects from './ProjectsComponent.js'
 import {BrowserRouter, Route, Router, Redirect} from 'react-router-dom';
 import Illustrations from './IllustrationComponent.js'
 import Sidebar from './SideNavBarComponent.js'
-import Moments from './FlyersComponent.js'
+import Moments from './PhotographyComponent.js'
 import Music from './Music.js'
 import Bsp from './BlazingStonePizza.js'
+import Photoshop from './PhotoshopComponent.js'
 import AboutMe from './AboutComponent.js'
+import Graphic from './GraphicDesignComp.js'
 import Contact from './Contact.js'
 import me from './pictures/name-tag.png'
 
@@ -52,7 +54,7 @@ class App extends Component {
             onBlur={this.hide}
           >
 
-            
+
           {"MENU"}
           <span className="caret"></span>
         </a>
@@ -61,7 +63,7 @@ class App extends Component {
           (
             <ul className="dropdown-menu" style={{display: 'block'}}>
             <li><a href="/bsp">projects</a></li>
-            <li><a href="/illustrations">Illustrations</a></li>
+            <li><a href="/graphicdesign"> Graphic Design </a> </li>
             <li><a href="/moments">PHOTOGRAPHY</a></li>
             <li><a href="/contact">contact</a></li>
             <li><a href="/about">about</a></li>
@@ -73,7 +75,9 @@ class App extends Component {
       <Sidebar />
         <Route exact path='/' component={Portfolio} />
         <Route path='/projects' component={Projects}/>
+        <Route path='/graphicdesign' component={Graphic}/>
         <Route path='/illustrations' component={Illustrations}/>
+        <Route path='/photoshop' component={Photoshop}/>
         <Route path='/moments' component={Moments}/>
         <Route path='/bsp' component={Bsp} />
         <Route path='/mixes' component={Music} />

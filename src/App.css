@@ -398,3 +398,13 @@ width: 40%;
   width:20%;
   padding:10px;
 }
+
+.photoshop {
+width: 50%;
+}
+.project-info {
+  width: 80%;
+  align-content: center;
+  margin-right: 25%;
+  margin-left: 15%;
+}

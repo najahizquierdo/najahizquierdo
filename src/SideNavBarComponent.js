@@ -8,14 +8,11 @@ class Sidebar extends Component {
     <div>
       <ul className="sidenav" id="mobile-demo">
         <li><a href="/">Home</a></li>
-        <li><a className="dropdown-button" href="#!" data-activates="dropdown1">Projects</a> </li>
-        <ul id="dropdown1" className="dropdown-content">
-          <li><a href="/bsp">BLAZING STONE PIZZA</a></li>
-          <li className="divider"></li>
-        </ul>
+        <li><a href="/projects">Web Dev</a></li>
       <li>  <a className="dropdown-button" href="#!" data-activates="dropdown2">Graphic Designs</a>
         <ul id="dropdown2" className="dropdown-content">
           <li><a href="/illustrations">ILLUSTRATIONS</a></li>
+          <li><a href="/photoshop">PHOTOSHOP</a></li>
         </ul>
       </li>
         <li><a href="/mixes">MIXES</a></li>

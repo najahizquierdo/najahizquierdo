@@ -16,14 +16,22 @@ class BlazingStonePizza extends Component {
   };
     return (
       <div className="pages">
+        <div className="project-info">
         <center>
+
           <h1> Blazing Stone Pizza </h1>
+        </center>
+            <center>
             Blazing Stone Pizza is a hip, well-reviewed pizza joint in Los Angeles, California.
-            With a 4.5 star rating and over 250 reviews, they needed a website that is fun but still easy to navigate.
+            With a 4.5 star rating and over 250 reviews, they needed a website that was fun but still professional.
             I decided to start from scratch and recreate their entire website using React, HTML, and CSS.
             <p> <a href="https://www.blazingstonepizza.com"> Check it out here!</a> </p>
+            <center>
+              <h5> Technologies </h5>
+              ReactJS | HTML | CSS
+              <p>Menu and Flyers created on Adobe Photoshop</p>
+            </center>
             <img src= {bsp} className="pictures" />
-        </center>
           <h2> The Process </h2>
             <center> <p>
               My client wanted a simple, clean design. They provided me with their desired components and left the rest up to me.
@@ -36,12 +44,9 @@ class BlazingStonePizza extends Component {
                 <img src= {bsp2} className="wireframing" />
                 <img src= {bsp3} className="wireframing" />
                 <hr />
-                <center>
-                  <h5> Technologies </h5>
-                  ReactJS | HTML | CSS
-                  <p>Menu and Flyers created on Adobe Photoshop</p>
-                </center>
+              </center>
             </div>
+          </div>
     );
   }
 }
