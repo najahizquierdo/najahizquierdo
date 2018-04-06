@@ -15,7 +15,7 @@ class GraphicDesign extends Component {
           </div>
     </div>
       <div className="graphic">
-        <a href="/illustrations">
+        <a href="/photoshop">
         <img src={snapchat} className="graphic-design-page" />
         </a>
         <div class="text-block">
