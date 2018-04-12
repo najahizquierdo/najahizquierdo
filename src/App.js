@@ -12,6 +12,7 @@ import Bsp from './BlazingStonePizza.js'
 import Photoshop from './PhotoshopComponent.js'
 import AboutMe from './AboutComponent.js'
 import Graphic from './GraphicDesignComp.js'
+import Videos from './Videos.js'
 import Contact from './Contact.js'
 import me from './pictures/name-tag.png'
 
@@ -65,6 +66,7 @@ class App extends Component {
             <li><a href='/projects'>projects</a></li>
             <li><a href="/graphicdesign"> Graphic Design </a> </li>
             <li><a href="/moments">PHOTOGRAPHY</a></li>
+            <li><a href="/videos">VIDEOS</a></li>
             <li><a href="/contact">contact</a></li>
             <li><a href="/about">about</a></li>
           </ul>
@@ -75,6 +77,7 @@ class App extends Component {
       <Sidebar />
         <Route exact path='/' component={Portfolio} />
         <Route path='/projects' component={Projects}/>
+        <Route path='/videos' component={Videos}/>
         <Route path='/graphicdesign' component={Graphic}/>
         <Route path='/illustrations' component={Illustrations}/>
         <Route path='/photoshop' component={Photoshop}/>
