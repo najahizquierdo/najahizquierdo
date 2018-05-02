@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Card, Row, Col } from 'react-materialize';
 import hugo from './pictures/huvs.png';
 import mom from './pictures/mom.jpg';
+import henry from './pictures/HENRYFINL.png'
 
 
 class Illustrations extends Component {
@@ -27,25 +28,25 @@ class Illustrations extends Component {
     </div>
   </div>
 </div>
-  <div className="container">
+<div className="container">
+<img src={henry} className="image"/>
+<div className="middle">
+<div className="text">
+  <h6> NOVA </h6>
+  <p>
+    Portrait
+  </p>
+  <p>
+    Adobe Illustrator
+  </p>
+    <p>
+      2018
+    </p>
 
-    <img src={mom} className="image" />
+</div>
+</div>
+</div>
 
-    <div className="middle">
-      <div className="text">
-        <h6> Queen A(mama)dala</h6>
-          <p>
-            Portrait
-          </p>
-          <p>
-            Adobe Illustrator
-          </p>
-          <p>
-            2018
-          </p>
-      </div>
-    </div>
-  </div>
 </div>
     );
   }
