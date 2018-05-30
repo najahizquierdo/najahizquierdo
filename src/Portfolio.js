@@ -16,16 +16,14 @@ class Portfolio extends Component {
     <img src={name} className="block" />
 
       <div className="icon-container">
-        <a href="http://www.facebook.com/najonaslover">
-          <img src={fb} className="icon" />
-        </a>
+
         <a href="http://soundcloud.com/nastyynajj">
           <img src={sc} className="icon" />
         </a>
         <a href="http://www.linkedin.com/in/najah-izquierdo-801955138/">
          <img src={linkedin} className="icon" />
        </a>
-        <a href="http://www.instagram.com/nastyynaj">
+        <a href="http://www.instagram.com/najahizquierdo">
           <img src={insta} className="icon" />
         </a>
       </div>

@@ -2,13 +2,18 @@ import React, { Component } from 'react';
 import Slider from 'react-slick'
 
 
-
 class Photography extends Component {
   constructor(props){
     super(props);
   }
   render() {
-
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
     const images = [
       { path: require('./pictures/brock.JPG'), alt:'Brockhampton, 2018'},
       { path: require('./pictures/ekali.JPG'), alt:'Ekali at Ultra, 2018'},
@@ -30,12 +35,14 @@ class Photography extends Component {
         <h2> <center>Photos </center></h2>
         <div className="moments"> A glimpse into my life.... </div>
         {images.map(function(imageProps) {
+          <Slider {...settings}>
         return (
           <div>
             <img src={imageProps.path} alt={imageProps.alt} className="moments-images"/>
             <span className="pic-text"> {imageProps.alt} </span>
           </div>
         );
+        </Slider>
       })}
     </div>
     );

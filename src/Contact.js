@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick'
-import resume from './pictures/resume.png'
+import resume from './pictures/najah_izquierdo_resume.png'
 import linked from './pictures/linkedin.png'
 import github from './pictures/github.png'
 
