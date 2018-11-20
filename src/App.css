@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  color: white;
   font-family: 'IBM Plex Mono';
   text-transform: uppercase;
 }
@@ -327,6 +327,7 @@ a {
 
 .pages {
   width: 85%;
+  color:black;
 }
 @media (max-width: 785px) {
   .pages { width: 100%; }
@@ -353,7 +354,7 @@ a {
   }
 }
 .pic-text{
-  margin-left: 40%;
+  margin-left: 80%;
   margin-top: 2%;
 }
 
