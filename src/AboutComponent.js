@@ -15,11 +15,8 @@ class AboutMe extends Component {
       <div className="pages">
         <img src={me} className="about-me-pic" />
         <p>
-          Najah Izquierdo. 21. Creative, curious, perfectionist.
-        </p>
-        <p>
           Najah is a Los Angeles native who currently resides in the South Bay.
-          Prior to this, she lived in New York City for a year. Relocating quite a bit in the
+          Prior to this, she lived in New York City and attended Dev Bootcamp. Relocating quite a bit in the
           last few years has allowed her to take inspiration from each city and incorporate it into her craft.
         </p>
         Although she has always wanted to pursure a career in technology, she has also strived to enhance her artistic skills.
