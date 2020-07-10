@@ -24,8 +24,7 @@ class BlazingStonePizza extends Component {
             <center>
             Blazing Stone Pizza is a hip, well-reviewed pizza joint in Los Angeles, California.
             With a 4.5 star rating and over 250 reviews, they needed a website that was fun but still professional.
-            I decided to start from scratch and recreate their entire website using React, HTML, and CSS.
-            <p> <a href="https://www.blazingstonepizza.com"> Check it out here!</a> </p>
+            I decided to start from scratch and recreate their entire website using React, HTML, and CSS. 
             <center>
               <h5> Technologies </h5>
               ReactJS | HTML | CSS

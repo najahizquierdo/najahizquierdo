@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick'
-import resume from './pictures/najah_izquierdo_resume.png'
 import linked from './pictures/linkedin.png'
 import github from './pictures/github.png'
 
@@ -9,7 +8,6 @@ class Contact extends Component {
     return (
       <div className="pages">
         <div className="row">
-        <img src={resume} className="column1" />
         <div className="column2">
           <center><h2>Contact </h2>
               <p>
@@ -43,7 +41,6 @@ class Contact extends Component {
           <img src={github} className="github-icon" />
         </a>
       </center>
-      <img src={resume} className="pages" />
       </div>
     </div>
 

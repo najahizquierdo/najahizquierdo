@@ -6,23 +6,25 @@ class GraphicDesign extends Component {
   render() {
     return (
       <div>
-        <div className="graphic">
-          <a href="/illustrations">
-          <img src={hugo} className="graphic-design-page" />
-        </a>
-          <div class="text-block">
-            <h6><a href="/illustrations"> Adobe Illustrator</a></h6>
-          </div>
-    </div>
-      <div className="graphic">
-        <a href="/photoshop">
-        <img src={snapchat} className="graphic-design-page" />
-        </a>
-        <div class="text-block">
-          <h6><a href="/photoshop"> Photoshop</a></h6>
-        </div>
+        <div className="container">
+    <img src={hugo} className="image"/>
+  <div className="middle">
+    <div className="text">
+      <h6>Pizza Bro</h6>
+      <p>
+        Portrait
+      </p>
+      <p>
+        Adobe Illustrator
+      </p>
+        <p>
+          2018
+        </p>
+
     </div>
   </div>
+</div>
+       </div>
     );
   }
 }

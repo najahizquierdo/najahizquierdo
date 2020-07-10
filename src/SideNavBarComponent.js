@@ -13,8 +13,6 @@ class Sidebar extends Component {
         {/* <li><a href="/mixes">MIXES</a></li> */}
         <li><a href="/moments">PHOTOGRAPHY</a></li>
         <li><a href="/videos">VIDEOS</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/about">About</a></li>
       </ul>
     </div>
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Card, Row, Col } from 'react-materialize';
 import Projects from './ProjectsComponent.js'
-import name from './pictures/4.jpg'
+import name from './pictures/name-tag.png'
 import fb from './pictures/fb.png'
 import insta from './pictures/insta.png'
 import linkedin from './pictures/linkedin.png'
@@ -14,16 +14,6 @@ class Portfolio extends Component {
     return(
   <div className="about-me">
     <img src={name} className="block" />
-
-      <div className="icon-container">
-
-        <a href="http://www.linkedin.com/in/najah-izquierdo-801955138/">
-         <img src={linkedin} className="icon" />
-       </a>
-        <a href="http://www.instagram.com/najahizquierdo">
-          <img src={insta} className="icon" />
-        </a>
-      </div>
   </div>
     );
   }
