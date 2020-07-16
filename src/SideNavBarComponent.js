@@ -9,6 +9,7 @@ class Sidebar extends Component {
       <ul className="sidenav" id="mobile-demo">
         <li><a href="/">Home</a></li>
         <li><a href="/projects">Web Dev</a></li>
+        <li><a href="https://najahizquierdo.github.io/index.html">RADIO SHOW</a></li>
         <li><a href="/graphicdesign">graphic design</a></li>
         {/* <li><a href="/mixes">MIXES</a></li> */}
         <li><a href="/moments">PHOTOGRAPHY</a></li>
