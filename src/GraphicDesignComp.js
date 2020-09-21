@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Slider from 'react-slick'
 import hugo from './pictures/huvs.png';
 import collage from './pictures/unnamed.jpg';
-import bsp from './pictures/bsp_postcard.png';
+import bsp from './pictures/BSP_POSTCARD.png';
 import snapchat from './pictures/snapchat-graphic.png'
 class GraphicDesign extends Component {
   render() {
@@ -40,7 +40,7 @@ class GraphicDesign extends Component {
       <p>
         2020
       </p>
-
+</div>
   </div>
 </div>
 <img src={bsp} className="image"/>
@@ -53,7 +53,6 @@ class GraphicDesign extends Component {
     <p>
       2020
     </p>
-
 </div>
 </div>
 </div>
