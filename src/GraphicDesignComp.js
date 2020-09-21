@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick'
 import hugo from './pictures/huvs.png';
+import collage from './pictures/unnamed.jpg';
+
 import snapchat from './pictures/snapchat-graphic.png'
 class GraphicDesign extends Component {
   render() {
@@ -23,6 +25,22 @@ class GraphicDesign extends Component {
 
     </div>
   </div>
+  <img src={collage} className="image"/>
+<div className="middle">
+  <div className="text">
+    <h6>Mood Collage</h6>
+    <p>
+      Collage
+    </p>
+    <p>
+      Over and Procreate
+    </p>
+      <p>
+        2020
+      </p>
+
+  </div>
+</div>
 </div>
        </div>
     );
