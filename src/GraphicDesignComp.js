@@ -25,6 +25,8 @@ class GraphicDesign extends Component {
 
     </div>
   </div>
+  </div>
+   <div className="container">
   <img src={collage} className="image"/>
 <div className="middle">
   <div className="text">
